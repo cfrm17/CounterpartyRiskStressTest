@@ -4,7 +4,7 @@ Stress testing is simulating an exceptional but plausible economic scenario to i
 
 Whilst ‘stressed’ counterparty exposure profiles are used for regulatory capital calculations under Basel III, there is a key difference to genuine stress testing. The Basel III stressed scenario is simply calibrated to a historical time of stress so can only simulate the effect of history repeating itself, whilst stress testing should seek to conceive of potential scenarios that have never happened historically, but could potentially happen in the future. 
 
-A critical element of this will be identifying potential dependencies between market factors that may not be observed in historical correlations. For example, a historical correlation analysis of USDCAD and Canadian government credit spreads would likely observe minimal correlation, but it is reasonable to expect that in a scenario where Canadian government spreads were to widen significantly, that CAD would weaken as a result. There are two types of credit spreads: CDS spread and bond spread. See https://finpricing.com/lib/FiBondCoupon.html
+A critical element of this will be identifying potential dependencies between market factors that may not be observed in historical correlations. For example, a historical correlation analysis of USDCAD and Canadian government credit spreads would likely observe minimal correlation, but it is reasonable to expect that in a scenario where Canadian government spreads were to widen significantly, that CAD would weaken as a result. There are two types of credit spreads: CDS spread and bond spread.
 
 Stress testing can be applied to any of the market data inputs to the counterparty credit risk (CCR) simulation:
 ·         Initial market data (either a single factor or multiple factors)
@@ -25,3 +25,7 @@ Key requirement within Basel III for counterparty risk stress testing include:
 ·         Stress of principal market risk factors at least monthly to identify directional concentrations
 ·         Multifactor stress testing of severe economic scenarios and stress testing of non-directional risk factors (curve, basis etc.) at least quarterly
 ·         Stress testing of the joint movement of exposures and counterparty creditworthiness at least quarterly.
+
+Reference:
+
+https://finpricing.com/FinPricing-ProductBrochure.pdf
